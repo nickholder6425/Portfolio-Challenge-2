@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(127, 191, 255);
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    width: 50%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+    margin: 0;
+}
+main section {
+    min-height: 200px;
+    display:flex;
+}
+.sub-title {
+    width: 30%;
+    border: 1px solid white;
+}
+.content {
+    width: 70%;
+}
+#banner-img img {
+    width: 90%;
+    margin: 10px;
+}
+#row-img {
+    display: flex;
+}
+#row-img img {
+    width: 45%;
+    margin: 5px;
+}
